@@ -8,4 +8,6 @@
 # ruby
 /bundle
 
-.aws
+# misc
+/.aws
+/tmp
