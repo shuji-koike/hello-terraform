@@ -29,4 +29,10 @@ bundle exec terraforming s3
 bundle exec terraforming r53z
 bundle exec terraforming r53r
 ```
+
+## snippets
+
+```
+ln -s ~/.aws
+cat .aws/credentials | grep -B1 aws_access_key_id
 ```
