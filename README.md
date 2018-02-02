@@ -15,7 +15,8 @@ brew install terraform rbenv
 ```
 rbenv install 2.5.0
 rbenv local 2.5.0
-bundle config --local path ./bundle
+rbenv exec gem install bundler
+rbenv exec bundle config --local path ./bundle
 rbenv exec bundle
 ```
 
